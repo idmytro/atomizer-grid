@@ -1,0 +1,27 @@
+.Bdrs\(5px\) {
+  border-radius: 5px;
+}
+.Bgc\(\#444\) {
+  background-color: #444;
+}
+.C\(\#fff\) {
+  color: #fff;
+}
+.D\(g\) {
+  display: grid;
+}
+.Fz\(150\%\) {
+  font-size: 150%;
+}
+.M\(40px\) {
+  margin: 40px;
+}
+.P\(20px\) {
+  padding: 20px;
+}
+.Gg\(10px\) {
+  grid-gap: 10px;
+}
+.Gtc\(100px\,100px\,100px\) {
+  grid-template-columns: 100px 100px 100px;
+}
