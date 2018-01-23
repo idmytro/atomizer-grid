@@ -18,5 +18,45 @@ module.exports = [
         styles: {
             'grid-template-columns': '$0 $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11',
         }
-    }
+    },
+    {
+        type: 'pattern',
+        id: ' grid-column-start',
+        name: ' grid-column-start',
+        matcher: 'Gcs',
+        allowParamToValue: true,
+        styles: {
+            'grid-column-start': '$0',
+        }
+    },
+    {
+        type: 'pattern',
+        id: ' grid-column-end',
+        name: ' grid-column-end',
+        matcher: 'Gce',
+        allowParamToValue: true,
+        styles: {
+            'grid-column-end': '$0',
+        }
+    },
+    {
+        type: 'pattern',
+        id: ' grid-row-start',
+        name: ' grid-row-start',
+        matcher: 'Grs',
+        allowParamToValue: true,
+        styles: {
+            'grid-row-start': '$0',
+        }
+    },
+    {
+        type: 'pattern',
+        id: ' grid-row-end',
+        name: ' grid-row-end',
+        matcher: 'Gre',
+        allowParamToValue: true,
+        styles: {
+            'grid-row-end': '$0',
+        }
+    },
 ];

@@ -25,3 +25,33 @@
 .Gtc\(100px\,100px\,100px\) {
   grid-template-columns: 100px 100px 100px;
 }
+.Gcs\(1\) {
+  grid-column-start: 1;
+}
+.Gcs\(2\) {
+  grid-column-start: 2;
+}
+.Gcs\(3\) {
+  grid-column-start: 3;
+}
+.Gce\(2\) {
+  grid-column-end: 2;
+}
+.Gce\(3\) {
+  grid-column-end: 3;
+}
+.Gce\(4\) {
+  grid-column-end: 4;
+}
+.Grs\(1\) {
+  grid-row-start: 1;
+}
+.Grs\(2\) {
+  grid-row-start: 2;
+}
+.Gre\(2\) {
+  grid-row-end: 2;
+}
+.Gre\(3\) {
+  grid-row-end: 3;
+}
