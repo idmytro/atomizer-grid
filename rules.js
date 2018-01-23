@@ -59,4 +59,24 @@ module.exports = [
             'grid-row-end': '$0',
         }
     },
+    {
+        type: 'pattern',
+        id: ' grid-column',
+        name: ' grid-column',
+        matcher: 'Gc',
+        allowParamToValue: true,
+        styles: {
+            'grid-column': '$0 / $1',
+        }
+    },
+    {
+        type: 'pattern',
+        id: ' grid-row',
+        name: ' grid-row',
+        matcher: 'Gr',
+        allowParamToValue: true,
+        styles: {
+            'grid-row': '$0 / $1',
+        }
+    },
 ];
