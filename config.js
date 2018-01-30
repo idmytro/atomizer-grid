@@ -2,7 +2,8 @@
 
 module.exports = {
     custom: {
-        g: 'grid'
+        g: 'grid',
+        span_2: 'span 2'
     },
     // breakpoints: {},
     // classNames: [],
