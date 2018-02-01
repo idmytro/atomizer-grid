@@ -22,6 +22,9 @@
 .Gg\(10px\) {
   grid-gap: 10px;
 }
+.Gg\(10px\,20px\) {
+  grid-gap: 10px 20px;
+}
 .Gtc\(100px\,100px\,100px\) {
   grid-template-columns: 100px 100px 100px;
 }

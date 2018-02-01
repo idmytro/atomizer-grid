@@ -6,7 +6,7 @@ module.exports = [
         matcher: 'Gg',
         allowParamToValue: true,
         styles: {
-            'grid-gap': '$0',
+            'grid-gap': '$0 $1',
         }
     },
     {
