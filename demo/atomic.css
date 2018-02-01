@@ -19,6 +19,12 @@
 .P\(20px\) {
   padding: 20px;
 }
+.Gcg\(10px\) {
+  grid-column-gap: 10px;
+}
+.Grg\(10px\) {
+  grid-row-gap: 10px;
+}
 .Gg\(10px\) {
   grid-gap: 10px;
 }
