@@ -34,6 +34,12 @@
 .Gtc\(100px\,100px\,100px\) {
   grid-template-columns: 100px 100px 100px;
 }
+.Gtc\(_col1-start_\,100px\,_col2-start_\,100px\,_col3-start_\,100px\,_col3-end_\) {
+  grid-template-columns: [col1-start] 100px [col2-start] 100px [col3-start] 100px [col3-end];
+}
+.Gtr\(_row1-start_\,a\,_row2-start_\,a\,_row2-end_\) {
+  grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+}
 .Gcs\(1\) {
   grid-column-start: 1;
 }
@@ -42,6 +48,15 @@
 }
 .Gcs\(3\) {
   grid-column-start: 3;
+}
+.Gcs\(col1-start\) {
+  grid-column-start: col1-start;
+}
+.Gcs\(col2-start\) {
+  grid-column-start: col2-start;
+}
+.Gcs\(col3-start\) {
+  grid-column-start: col3-start;
 }
 .Gce\(2\) {
   grid-column-end: 2;
@@ -57,6 +72,12 @@
 }
 .Grs\(2\) {
   grid-row-start: 2;
+}
+.Grs\(row1-start\) {
+  grid-row-start: row1-start;
+}
+.Grs\(row2-start\) {
+  grid-row-start: row2-start;
 }
 .Gre\(2\) {
   grid-row-end: 2;
@@ -79,6 +100,9 @@
 .Gc\(3\,4\) {
   grid-column: 3 / 4;
 }
+.Gc\(col1-start\,col3-start\) {
+  grid-column: col1-start / col3-start;
+}
 .Gr\(1\,2\) {
   grid-row: 1 / 2;
 }
@@ -90,6 +114,9 @@
 }
 .Gr\(2\,3\) {
   grid-row: 2 / 3;
+}
+.Gr\(row1-start\,row2-end\) {
+  grid-row: row1-start / row2-end;
 }
 .Ga\(1\,1\,2\,2\) {
   grid-area: 1 / 1 / 2 / 2;
