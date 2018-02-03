@@ -37,8 +37,14 @@
 .Gtc\(_col1-start_\,100px\,_col2-start_\,100px\,_col3-start_\,100px\,_col3-end_\) {
   grid-template-columns: [col1-start] 100px [col2-start] 100px [col3-start] 100px [col3-end];
 }
+.Gtc\(_col_\,100px\,_col_\,100px\,_col_\,100px\,_col_\,100px\) {
+  grid-template-columns: [col] 100px [col] 100px [col] 100px [col] 100px;
+}
 .Gtr\(_row1-start_\,a\,_row2-start_\,a\,_row2-end_\) {
   grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+}
+.Gtr\(_row_\,a\,_row_\,a\,_row_\) {
+  grid-template-rows: [row] auto [row] auto [row];
 }
 .Gcs\(1\) {
   grid-column-start: 1;
@@ -48,6 +54,9 @@
 }
 .Gcs\(3\) {
   grid-column-start: 3;
+}
+.Gcs\(col\) {
+  grid-column-start: col;
 }
 .Gcs\(col1-start\) {
   grid-column-start: col1-start;
@@ -73,11 +82,20 @@
 .Grs\(2\) {
   grid-row-start: 2;
 }
+.Grs\(row\) {
+  grid-row-start: row;
+}
 .Grs\(row1-start\) {
   grid-row-start: row1-start;
 }
 .Grs\(row2-start\) {
   grid-row-start: row2-start;
+}
+.Grs\(row_2\) {
+  grid-row-start: row 2;
+}
+.Grs\(row_3\) {
+  grid-row-start: row 3;
 }
 .Gre\(2\) {
   grid-row-end: 2;
@@ -100,8 +118,20 @@
 .Gc\(3\,4\) {
   grid-column: 3 / 4;
 }
+.Gc\(col\,span_2\) {
+  grid-column: col / span 2;
+}
+.Gc\(col\,span_4\) {
+  grid-column: col / span 4;
+}
 .Gc\(col1-start\,col3-start\) {
   grid-column: col1-start / col3-start;
+}
+.Gc\(col_2\,span_3\) {
+  grid-column: col 2 / span 3;
+}
+.Gc\(col_3\,span_2\) {
+  grid-column: col 3 / span 2;
 }
 .Gr\(1\,2\) {
   grid-row: 1 / 2;
