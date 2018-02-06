@@ -46,6 +46,12 @@
 .Gtr\(_row_\,a\,_row_\,a\,_row_\) {
   grid-template-rows: [row] auto [row] auto [row];
 }
+.GtcRepeat\(4\,_col_\,100px\) {
+  grid-template-columns: repeat(4, [col] 100px);
+}
+.GtrRepeat\(3\,_row_\,a\) {
+  grid-template-rows: repeat(3, [row] auto);
+}
 .Gcs\(1\) {
   grid-column-start: 1;
 }

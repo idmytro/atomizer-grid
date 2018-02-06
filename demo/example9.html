@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- https://gridbyexample.com/examples/example9/ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example 9</title>
+    <link rel="stylesheet" href="atomic.css">
+    <!--
+        grid-template-columns: repeat(4, [col] 100px ) ;
+        grid-template-rows: repeat(3, [row] auto  );
+    -->
+</head>
+<body class="M(40px)">
+<div class="C(#fff) Fz(150%) D(g) Gg(10px) GtcRepeat(4,_col_,100px) GtrRepeat(3,_row_,a)">
+    <div class="Bgc(#444) Bdrs(5px) P(20px) Gc(col,span_2) Grs(row)">A</div>
+    <div class="Bgc(#444) Bdrs(5px) P(20px) Gc(col_3,span_2) Grs(row)">B</div>
+    <div class="Bgc(#444) Bdrs(5px) P(20px) Gcs(col) Grs(row_2)">C</div>
+    <div class="Bgc(#444) Bdrs(5px) P(20px) Gc(col_2,span_3) Grs(row_2)">D</div>
+    <div class="Bgc(#444) Bdrs(5px) P(20px) Gc(col,span_4) Grs(row_3)">E</div>
+</div>
+</body>
+</html>
