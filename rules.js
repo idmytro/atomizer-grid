@@ -31,6 +31,16 @@ module.exports = [
     },
     {
         type: 'pattern',
+        id: 'grid-auto-column',
+        name: 'grid-auto-column',
+        matcher: 'Gac',
+        allowParamToValue: true,
+        styles: {
+            'grid-auto-columns': '$0',
+        }
+    },
+    {
+        type: 'pattern',
         id: 'grid-template-columns',
         name: 'grid-template-columns',
         matcher: 'Gtc',
