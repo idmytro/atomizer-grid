@@ -34,6 +34,9 @@
 .Gac\(100px\) {
   grid-auto-columns: 100px;
 }
+.Gac\(minc\) {
+  grid-auto-columns: min-content;
+}
 .Gtc\(100px\,100px\,100px\) {
   grid-template-columns: 100px 100px 100px;
 }
