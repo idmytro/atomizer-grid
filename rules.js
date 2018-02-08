@@ -46,6 +46,21 @@ module.exports = [
     },
     {
         type: 'pattern',
+        id: 'grid-auto-rows',
+        name: 'grid-auto-rows',
+        matcher: 'Gar',
+        allowParamToValue: true,
+        styles: {
+            'grid-auto-rows': '$0',
+        },
+        arguments: [{
+            'a': 'auto',
+            'maxc': 'max-content',
+            'minc': 'min-content',
+        }]
+    },
+    {
+        type: 'pattern',
         id: 'grid-template-columns',
         name: 'grid-template-columns',
         matcher: 'Gtc',
@@ -73,7 +88,8 @@ module.exports = [
         styles: {
             'grid-template-columns': 'repeat($0, $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11)',
         }
-    }, {
+    },
+    {
         type: 'pattern',
         id: 'grid-template-rows-repeat',
         name: 'grid-template-rows-repeat',
