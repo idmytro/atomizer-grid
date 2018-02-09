@@ -23,7 +23,7 @@ gulp.task('acss', () => {
         .pipe(gulpAtomizer({
             outfile: 'atomic.css',
             acssConfig: Object.assign({}, require('../config')),
-            addRules: require('../rules')
+            addRules: require('../')
         }))
         .pipe(gulp.dest('.'));
 });
