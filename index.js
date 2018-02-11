@@ -10,6 +10,8 @@ var rules = [
     require('./rules/grid-'),
 
     require('./rules/grid-area'),
+
+    require('./rules/grid-auto-flow'),
 ];
 
 function flatten(arr) {

@@ -187,6 +187,6 @@
 .Ga\(2\,3\,3\,4\) {
   grid-area: 2 / 3 / 3 / 4;
 }
-.Ga\(row\) {
-  grid-area: row / / /;
+.Gaf\(rd\) {
+  grid-auto-flow: row dense;
 }
